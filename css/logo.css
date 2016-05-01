@@ -1,0 +1,69 @@
+
+/*登录窗口*/
+.logoBoard{width: 624px;height: 418px;background: gray;position: fixed;top: 22.6%;left: 26.8%;display: none;z-index: 101;}
+.logoBoardOption{width: 100%;height: 52px;background: #F1F1F1;list-style: none;margin-top: 0;padding: 0}
+.option{float: left;width: 50%;line-height: 50px;text-align: center;position: relative;font-size: 16px;font-family: 微软雅黑;cursor: pointer}
+#tabOne{border-bottom: 2px solid #31A4F6;}
+.logoBoardClose{display: block;width: 46px;height: 28px;position: absolute;top: 0;right: 0;background: url("../images/logoImg/sprite_login.png") 0 0;cursor: pointer}
+.logoBoardClose:hover{background: url("../images/logoImg/sprite_login.png") -51px 0}
+.context{padding: 0;position: relative; top:16px;}
+/*微信登录*/
+.wxLogo{display: none;background: white;width: 100%;height: 366px;top: -16px;position: absolute}
+.firstLine{display: block;margin-top: 50px;height: 50px;font-size: 14px;font-weight: 700;text-align: center;font-family: "hiragino sans gb",simsun,stfangsong;color: #808080}
+.wxCode{border: 1px #D3D3D3 solid;position: absolute;left: 237px;top: 100px;}
+.wxLogoInfo{height: 40px;background: url("../images/logoImg/sprite_login.png") 0 -40px no-repeat;position: absolute;top: 270px;width: 390px;left: 210px;padding: 5px;}
+.wxLogoInfo p{line-height: 15px;font-family: hiragino sans gb,simsun,stfangsong;color: #808080;height: 15px;font-size: 12px;margin:0 30px;}
+/*qq登录*/
+    /*左边*/
+.qqLogo{display: block;width: 100%;height: 366px;background: white;top: -16px;position: absolute;padding: 0;}
+.qqLogoLeft{position: relative;float: left;}
+.qqLogoRight{position: relative;float: left;}
+.firstLineQQ{display: block;margin-top: 50px;height: 50px;font-size: 14px;font-weight: 700;text-align: center;font-family: "hiragino sans gb",simsun,stfangsong;color: #808080;margin-left: 90px;}
+.QQCode{border: 1px #D3D3D3 solid;position: absolute;left: 78px;top: 100px;}
+.qqLogoLeftQQ{display: block;position: absolute;background: url("../images/logoImg/c_icon_2_tiny.png") -158px -470px;z-index: 2;width: 36px;height: 47px;left: 134px;top: 153px;}
+.QQLogoInfo{line-height: 29px;font-family: hiragino sans gb,simsun,stfangsong;color: #808080;height: 29px;font-size: 12px;display: block;background: url("../images/logoImg/c_icon_2_tiny.png") 0 -474px no-repeat;position: absolute;top:259px;width: 152px;left: 79px;text-align: center;}
+    /*中间*/
+.splitLine{background: #e6e6e6;height: 250px;position: absolute;top: 50px;width: 1px;left: 293px;float: left}
+    /*右边*/
+.firstLineQQR{display: block;margin-top: 50px;height: 50px;font-size: 14px;font-weight: bold;text-align: center;font-family: "hiragino sans gb",simsun,stfangsong;color: #808080;margin-left: 125px;}
+.account{position: absolute;width: 200px;height:40px;top:100px;left: 124px;display: block;border: solid #D7D7D7 1px;padding-left:45px;border-radius: 4px;color: #AAAAAA;font-family: Arial}
+.accountImg{background: url("../images/logoImg/c_icon_2_tiny.png") -179px -160px; width: 16px;height: 18px;display: block;position: absolute;top:111px;left:144px;z-index: 2;}
+.accountDel{position: absolute;display: none;background: url("../images/logoImg/c_icon_2_tiny.png") -116px -159px;width: 21px;height: 22px;top: 109px;left: 340px;cursor: pointer}
+.errorMessage{background: #F5ECBB;border: 1px solid #ECC36C;height: 28px;text-align: left;width: 246px;position: absolute;left: 124px;top: 70px;border-radius: 2px;display: none}
+.errorMessageImg{display: block;position: absolute;background: url("../images/logoImg/c_icon_2_tiny.png") -4px -165px no-repeat; width: 12px; height: 12px;left: 5px;top: 8px;}
+.errorMessageInfo{color: #383838;font-family: 宋体,Tahoma,Verdana,Arial;line-height: 16px;font-weight: bold;position: absolute;top: 6px;left: 22px;}
+.password{position: absolute;width: 200px;height:40px;top:155px;left: 124px;display: block;border: solid #D7D7D7 1px;padding-left:45px;border-radius: 4px;color: #AAAAAA;font-family: Arial}
+.passwordImg{background: url("../images/logoImg/c_icon_2_tiny.png") -200px -160px; width: 16px;height: 18px;display: block;position: absolute;top:166px;left:144px;z-index: 2;}
+.qqLogoButton{position: absolute;width: 90px;height:35px;top:214px;left: 123px;display: block;background: url("../images/logoImg/c_icon_2_tiny.png") 0 -90px;border-radius: 5px;border: 1px solid #5cbc1d;color: white;font-size: 14px;font-weight: bold;}
+.qqLogoButton:hover{background: url("../images/logoImg/c_icon_2_tiny.png") -99px -90px;}
+.backFastLogin a{position: absolute;width: 245px;height:35px;top:281px;left: 122px;display: block;cursor: pointer;color: #579FEB;font-family: 宋体,Tahoma,Verdana,Arial;font-size: 12px;}
+.backFastLogin a:hover{text-decoration: underline}
+.otherInfo{position: absolute;width: 260px;top:320px;left: 134px;display: block;list-style: none}
+.otherInfo li{float: left;margin-left: 7px;height: 12px;color: gray;font-size: 12px;text-align: center}
+.otherInfoLi a{text-decoration: none;color: gray}
+.otherInfoLi a:hover{text-decoration: underline;}
+/*扫一扫*/
+.coursePhone{position: absolute;top:28px;left: 227px;z-index: 2;display: none;opacity: 0;}
+
+.checkSpan{position: absolute;top: 224px;left: 246px;width: 200px;font-family: 宋体,Tahoma,Verdana,Arial;color: gray;font-size: 12px;}
+
+.QQCodeHide{
+    width: 152px;
+    height: 94px;
+    position: absolute;
+    top: 100px;
+    left: 77px;
+    background: #000;
+    opacity: 0.5;
+    z-index: 3;
+    color: #fff;
+    font-size: 12px;
+    font-family: 宋体,Tahoma,Verdana,Arial;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 57px;
+    cursor: pointer;
+    display: none;
+}
+
+
